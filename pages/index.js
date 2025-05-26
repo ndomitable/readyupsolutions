@@ -1,26 +1,4 @@
-// package.json
-export const packageJson = {
-  name: "readyupsolutions",
-  version: "1.0.0",
-  private: true,
-  scripts: {
-    dev: "next dev",
-    build: "next build",
-    start: "next start"
-  },
-  dependencies: {
-    next: "latest",
-    react: "latest",
-    react-dom: "latest"
-  }
-};
 
-// next.config.js
-export const nextConfig = {
-  reactStrictMode: true
-};
-
-// pages/index.js
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-100 to-white text-gray-800 px-6 pt-10 pb-20">
